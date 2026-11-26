@@ -3,9 +3,9 @@ public class FindMax {
         if (array.length == 0) {
             throw new IllegalArgumentException("Массив не должен быть пустым");
         }
-        int[] numbers = {4, 8, 15, 16, 23, 42};
+
         int max = array[0];
-        for(int i = 1;i < numbers.length ; i++ ){
+        for(int i = 1;i < array.length ; i++ ){
             if(max < array[i]){
                 max = array[i];
             }
